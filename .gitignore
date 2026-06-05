@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+assets/source-images/
+assets/processed-images/
+assets/generated-images/
+!assets/generated-images/.gitkeep

@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Recipe Manager</title>
+    <link rel="stylesheet" href="styles.css?v=20260605-4">
+  </head>
+  <body>
+    <header class="app-header">
+      <div>
+        <p class="eyebrow">Recipe Archive</p>
+        <h1>レシピ管理</h1>
+      </div>
+      <div class="header-actions">
+        <nav class="mode-tabs" aria-label="画面切り替え">
+          <button id="browseMode" class="mode-button active" type="button">閲覧</button>
+          <button id="manageMode" class="mode-button" type="button">登録・編集</button>
+        </nav>
+        <div class="export-actions" aria-label="データ出力">
+          <button id="exportJson" class="export-button" type="button">JSON出力</button>
+          <button id="exportCsv" class="export-button" type="button">CSV出力</button>
+        </div>
+      </div>
+    </header>
+
+    <main id="browseView" class="app-shell">
+      <aside class="sidebar" aria-label="レシピ検索">
+        <label class="field">
+          <span>検索</span>
+          <input id="searchInput" type="search" placeholder="タイトル、材料、タグ">
+        </label>
+        <label class="field">
+          <span>分類</span>
+          <select id="categoryFilter">
+            <option value="">すべて</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>状態</span>
+          <select id="statusFilter">
+            <option value="">すべて</option>
+            <option value="draft">下書き</option>
+            <option value="review">確認中</option>
+            <option value="published">公開</option>
+          </select>
+        </label>
+        <div class="stats">
+          <div><strong id="totalCount">0</strong><span>件</span></div>
+          <div><strong id="imageCount">0</strong><span>元画像</span></div>
+        </div>
+      </aside>
+
+      <section class="recipe-list" aria-label="レシピ一覧">
+        <div class="list-toolbar">
+          <h2>一覧</h2>
+        </div>
+        <div id="recipeCards" class="cards"></div>
+      </section>
+
+      <section class="viewer-pane" aria-label="レシピ閲覧">
+        <div class="media-tabs" aria-label="画像表示切り替え">
+          <div class="media-tab-buttons">
+            <button id="viewSourceTab" class="media-tab active" type="button">元画像</button>
+            <button id="viewGeneratedTab" class="media-tab" type="button">生成画像</button>
+          </div>
+          <div class="media-tools">
+            <button id="viewRotateLeft" class="tool-button" type="button">左回転</button>
+            <button id="viewRotateRight" class="tool-button" type="button">右回転</button>
+          </div>
+        </div>
+        <div class="detail-media">
+          <img id="viewActiveImage" alt="">
+          <div class="media-empty" id="viewMediaEmpty">画像なし</div>
+        </div>
+        <div class="viewer-header">
+          <div>
+            <p id="viewCategory" class="viewer-category"></p>
+            <h2 id="viewTitle">レシピを選択</h2>
+          </div>
+          <button id="editSelected" type="button">編集</button>
+        </div>
+        <div id="viewTags" class="tag-row"></div>
+        <div class="viewer-grid">
+          <section>
+            <h3>材料</h3>
+            <ul id="viewIngredients"></ul>
+          </section>
+          <section>
+            <h3>作り方</h3>
+            <ol id="viewSteps"></ol>
+          </section>
+        </div>
+        <section class="notes-section">
+          <h3>メモ</h3>
+          <p id="viewNotes"></p>
+        </section>
+      </section>
+    </main>
+
+    <main id="manageView" class="manage-shell" hidden>
+      <section class="local-notice" aria-label="登録編集機能の注意">
+        <strong>登録・編集はローカル作業専用です。</strong>
+        <span>GitHub Pages 上では画像や `data/recipes.json` へ直接保存できません。編集後は JSON/CSV を出力し、ローカルでファイルを差し替えて公開してください。</span>
+      </section>
+
+      <section class="bulk-panel" aria-label="画像一括登録">
+        <div>
+          <h2>画像から登録</h2>
+          <p>複数画像を選ぶと、各画像を元にした下書きレシピを作成します。</p>
+        </div>
+        <label class="drop-field">
+          <input id="imagePicker" type="file" accept="image/*" multiple>
+          <span>画像を複数選択</span>
+        </label>
+        <div id="selectedImages" class="selected-images"></div>
+      </section>
+
+      <section class="editor-layout">
+        <aside class="recipe-list compact" aria-label="編集対象一覧">
+          <div class="list-toolbar">
+            <h2>編集対象</h2>
+            <button id="newRecipe" type="button">手動追加</button>
+          </div>
+          <div id="editCards" class="cards"></div>
+        </aside>
+
+        <section class="detail-pane" aria-label="レシピ登録編集">
+          <form id="recipeForm">
+            <div class="media-tabs" aria-label="画像表示切り替え">
+              <div class="media-tab-buttons">
+                <button id="editSourceTab" class="media-tab active" type="button">元画像</button>
+                <button id="editGeneratedTab" class="media-tab" type="button">生成画像</button>
+              </div>
+              <div class="media-tools">
+                <button id="editRotateLeft" class="tool-button" type="button">左回転</button>
+                <button id="editRotateRight" class="tool-button" type="button">右回転</button>
+              </div>
+            </div>
+            <div class="detail-media">
+              <img id="displayActiveImage" alt="">
+              <div class="media-empty" id="displayMediaEmpty">画像なし</div>
+            </div>
+
+            <div class="form-grid">
+              <label class="field wide">
+                <span>タイトル</span>
+                <input id="title" name="title" required>
+              </label>
+              <label class="field">
+                <span>分類</span>
+                <input id="category" name="category">
+              </label>
+              <label class="field">
+                <span>状態</span>
+                <select id="status" name="status">
+                  <option value="draft">下書き</option>
+                  <option value="review">確認中</option>
+                  <option value="published">公開</option>
+                </select>
+              </label>
+              <label class="field wide">
+                <span>タグ</span>
+                <input id="tags" name="tags" placeholder="和食, 作り置き">
+              </label>
+              <label class="field wide">
+                <span>元画像</span>
+                <input id="sourceImage" name="sourceImage" placeholder="assets/source-images/example.jpg">
+              </label>
+              <label class="field wide">
+                <span>生成画像</span>
+                <input id="generatedImage" name="generatedImage" placeholder="assets/generated-images/example.jpg">
+              </label>
+              <label class="field wide">
+                <span>材料</span>
+                <textarea id="ingredients" name="ingredients" rows="5"></textarea>
+              </label>
+              <label class="field wide">
+                <span>作り方</span>
+                <textarea id="steps" name="steps" rows="7"></textarea>
+              </label>
+              <label class="field wide">
+                <span>メモ</span>
+                <textarea id="notes" name="notes" rows="4"></textarea>
+              </label>
+            </div>
+
+            <div class="detail-actions">
+              <button id="saveRecipe" type="submit">保存</button>
+              <button id="deleteRecipe" class="danger" type="button">削除</button>
+            </div>
+          </form>
+        </section>
+      </section>
+    </main>
+
+    <template id="cardTemplate">
+      <article class="recipe-card">
+        <img class="card-image" alt="">
+        <div class="card-body">
+          <h3></h3>
+          <p></p>
+          <div class="card-meta"></div>
+        </div>
+      </article>
+    </template>
+
+    <template id="imageTemplate">
+      <figure class="image-chip">
+        <img alt="">
+        <figcaption></figcaption>
+      </figure>
+    </template>
+
+    <script src="app.js?v=20260605-4"></script>
+  </body>
+</html>
