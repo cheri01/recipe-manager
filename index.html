@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Recipe Manager</title>
-    <link rel="stylesheet" href="styles.css?v=20260605-4">
+    <link rel="stylesheet" href="styles.css?v=20260605-5">
   </head>
   <body>
     <header class="app-header">
@@ -25,6 +25,10 @@
     </header>
 
     <main id="browseView" class="app-shell">
+      <div class="browse-menu-toggle">
+        <button id="toggleBrowseMenu" class="menu-toggle-button" type="button" aria-expanded="true">メニューを隠す</button>
+      </div>
+
       <aside class="sidebar" aria-label="レシピ検索">
         <label class="field">
           <span>検索</span>
@@ -212,6 +216,6 @@
       </figure>
     </template>
 
-    <script src="app.js?v=20260605-4"></script>
+    <script src="app.js?v=20260605-5"></script>
   </body>
 </html>

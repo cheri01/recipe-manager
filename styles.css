@@ -139,6 +139,32 @@ button.export-button:hover {
   padding: 18px;
 }
 
+.browse-menu-toggle {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: flex-start;
+}
+
+button.menu-toggle-button {
+  border-color: var(--line);
+  background: #fff;
+  color: var(--accent-strong);
+}
+
+button.menu-toggle-button:hover {
+  border-color: var(--accent);
+  background: #f4faf8;
+}
+
+.app-shell.menu-collapsed {
+  grid-template-columns: minmax(420px, 1fr);
+}
+
+.app-shell.menu-collapsed .sidebar,
+.app-shell.menu-collapsed .recipe-list {
+  display: none;
+}
+
 .manage-shell {
   padding: 18px;
 }
@@ -548,6 +574,14 @@ button.media-tab.active:hover {
     grid-template-columns: 240px 1fr;
   }
 
+  .browse-menu-toggle {
+    grid-column: 1 / -1;
+  }
+
+  .app-shell.menu-collapsed {
+    grid-template-columns: 1fr;
+  }
+
   .viewer-pane {
     grid-column: 1 / -1;
   }
@@ -590,8 +624,26 @@ button.media-tab.active:hover {
 
   .app-shell,
   .manage-shell {
-    display: block;
     padding: 12px;
+  }
+
+  .app-shell {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .browse-menu-toggle {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    margin: -2px 0 2px;
+    padding: 6px 0;
+    background: var(--bg);
+  }
+
+  .browse-menu-toggle button {
+    width: 100%;
   }
 
   .sidebar {

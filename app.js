@@ -8,6 +8,7 @@ const state = {
     edit: "source",
   },
   rotations: new Map(),
+  browseMenuOpen: true,
 };
 
 const els = {
@@ -26,6 +27,7 @@ const els = {
   statusFilter: document.querySelector("#statusFilter"),
   totalCount: document.querySelector("#totalCount"),
   imageCount: document.querySelector("#imageCount"),
+  toggleBrowseMenu: document.querySelector("#toggleBrowseMenu"),
   form: document.querySelector("#recipeForm"),
   displayActiveImage: document.querySelector("#displayActiveImage"),
   displayMediaEmpty: document.querySelector("#displayMediaEmpty"),
@@ -214,12 +216,19 @@ function setMode(mode) {
 }
 
 function render() {
+  renderBrowseMenu();
   renderFilters();
   renderStats();
   renderCards(els.cards, getFilteredRecipes());
   renderCards(els.editCards, state.recipes);
   renderViewer();
   renderEditor();
+}
+
+function renderBrowseMenu() {
+  els.browseView.classList.toggle("menu-collapsed", !state.browseMenuOpen);
+  els.toggleBrowseMenu.textContent = state.browseMenuOpen ? "メニューを隠す" : "メニューを表示";
+  els.toggleBrowseMenu.setAttribute("aria-expanded", String(state.browseMenuOpen));
 }
 
 function renderFilters() {
@@ -269,6 +278,9 @@ function renderCards(container, recipes) {
 
     card.addEventListener("click", () => {
       state.selectedId = recipe.id;
+      if (window.matchMedia("(max-width: 760px)").matches && container === els.cards) {
+        state.browseMenuOpen = false;
+      }
       render();
     });
     container.append(card);
@@ -439,6 +451,10 @@ document.querySelector("#deleteRecipe").addEventListener("click", () => {
 });
 
 document.querySelector("#editSelected").addEventListener("click", () => setMode("manage"));
+els.toggleBrowseMenu.addEventListener("click", () => {
+  state.browseMenuOpen = !state.browseMenuOpen;
+  render();
+});
 els.browseMode.addEventListener("click", () => setMode("browse"));
 els.manageMode.addEventListener("click", () => setMode("manage"));
 els.viewSourceTab.addEventListener("click", () => setMediaKind("view", "source"));
