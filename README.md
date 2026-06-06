@@ -10,9 +10,7 @@
 - `assets/page-images/`: GitHub Pages 公開用の軽量画像。Git 管理対象です。
 - `assets/generated-images/`: 将来の画像生成モデルで作った画像
 - `data/recipes.json`: アプリが読むレシピデータ
-- `docs/recipe-management.xlsx`: 管理用 Excel
 - `scripts/extract_recipes.py`: LM Studio で画像からレシピを抽出
-- `scripts/generate_workbook.py`: `recipes.json` から Excel を生成
 - `scripts/generate_page_images.sh`: `assets/processed-images/` から公開用軽量画像を生成
 
 ## 画面
@@ -58,14 +56,6 @@ python3 scripts/extract_recipes.py --input /path/to/images --copy-images
 
 処理結果は `data/recipes.json` に追記されます。1枚の画像に複数レシピが含まれる場合は、モデルの出力に応じて複数レコードとして保存されます。
 
-## 管理用 Excel
-
-```bash
-python3 scripts/generate_workbook.py
-```
-
-`docs/recipe-management.xlsx` が生成されます。列は `id`, `title`, `sourceImage`, `generatedImage` など、元画像・レシピタイトル・画像管理に必要な項目です。
-
 ## 公開用軽量画像
 
 元画像と読み取り用 PNG は容量が大きいため、GitHub Pages には `assets/page-images/` の JPEG だけを載せます。
@@ -98,7 +88,6 @@ Git に含める主なファイル:
 - `styles.css`
 - `app.js`
 - `data/recipes.json`
-- `docs/recipe-management.xlsx`
 - `assets/page-images/*.jpg`
 - `assets/generated-images/.gitkeep`
 - `scripts/*.py`
@@ -117,7 +106,7 @@ Git に含めないファイル:
 VS Code で公開前に確認すること:
 
 1. Source Control で `assets/source-images/` と `assets/processed-images/` が表示されていないことを確認します。
-2. `assets/page-images/`、`data/recipes.json`、`docs/recipe-management.xlsx`、アプリ本体の変更だけをステージします。
+2. `assets/page-images/`、`data/recipes.json`、アプリ本体の変更だけをステージします。
 3. コミット後、GitHub に push します。
 4. GitHub の Settings > Pages で公開ブランチとフォルダを設定します。通常は `main` ブランチのルート、または `docs/` ではなくこのアプリの配置先を選びます。
 
