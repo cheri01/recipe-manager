@@ -2925,6 +2925,1838 @@
       "notes": "",
       "createdAt": "2026-06-06T02:49:52.014012+00:00",
       "updatedAt": "2026-06-06T02:49:52.014012+00:00"
+    },
+    {
+      "id": "manual-img-2116-hakusai-moyashi-namul",
+      "title": "白菜ともやしのナムル",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2116.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "白菜 1/8個（細くざくざく切る）",
+        "もやし 1/2袋",
+        "丸鶏がらスープの素 小さじ1",
+        "ごま油 小さじ2",
+        "白いりごまなど 小さじ2"
+      ],
+      "steps": [
+        "フライパンに白菜ともやしを入れて炒める",
+        "丸鶏がらスープの素とごま油を入れて、さらによく炒めたら完成"
+      ],
+      "notes": "",
+      "createdAt": "2026-06-06T03:10:00+00:00",
+      "updatedAt": "2026-06-06T03:10:00+00:00"
+    },
+    {
+      "id": "manual-img-2116-daikon-hikiniku-soboro-ankake",
+      "title": "大根とひき肉のそぼろあんかけ",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2116.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "鶏ひき肉 150g",
+        "大根 1/2本",
+        "だし 小さじ2",
+        "しょうゆ 大さじ4",
+        "水 500cc",
+        "酒 大さじ3",
+        "砂糖 大さじ3",
+        "片栗粉 適量",
+        "水 適量"
+      ],
+      "steps": [
+        "大根を下ゆでする。下ゆでのお湯で500ccを残し、調味料を加える",
+        "鶏ひき肉、好みで野菜を入れる。なければ別のフライパンで炒めて加える",
+        "汁を使って白菜粉などを合わせ、大根に味がしみたら炒めた具を加える",
+        "水溶き片栗粉でとろみをつけて完成"
+      ],
+      "notes": "余ったゆで汁はアジの南ばん漬けにも使った、というメモあり。手書きの一部は判読が難しいため要確認。",
+      "createdAt": "2026-06-06T03:11:00+00:00",
+      "updatedAt": "2026-06-06T03:11:00+00:00"
+    },
+    {
+      "id": "manual-img-2116-satoimo-mochi",
+      "title": "里芋もち",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2116.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "里芋 150g程度",
+        "米粉 大さじ2",
+        "油 小さじ2",
+        "しょうゆ 小さじ2",
+        "みりん 大さじ1/2",
+        "砂糖 大さじ1/2",
+        "水 30ml"
+      ],
+      "steps": [
+        "里芋をゆでて皮をむき、つぶす",
+        "米粉を混ぜて食べやすく丸める。手に水をつけるとやりやすい",
+        "フライパンに油をひいて、中火で里芋を形成したものを両面焼き、一度皿に取り出す",
+        "調味料を熱して混ぜ、焼いた里芋もちを戻して味をからめて完成"
+      ],
+      "notes": "",
+      "createdAt": "2026-06-06T03:12:00+00:00",
+      "updatedAt": "2026-06-06T03:12:00+00:00"
+    },
+    {
+      "id": "manual-img-2117-daikon-suzuke",
+      "title": "大根の酢漬け",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2117.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "大根",
+        "塩 小さじ1",
+        "砂糖 大さじ1",
+        "酢 50cc"
+      ],
+      "steps": [
+        "大根をお湯に通す",
+        "塩、砂糖、酢で漬ける"
+      ],
+      "notes": "",
+      "createdAt": "2026-06-06T03:13:00+00:00",
+      "updatedAt": "2026-06-06T03:13:00+00:00"
+    },
+    {
+      "id": "manual-img-2117-shishito-mayo-itame",
+      "title": "ししとうのマヨ炒め",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2117.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "ししとう",
+        "好みの具材",
+        "山椒または一味唐辛子など 適量",
+        "めんつゆ 大さじ1",
+        "マヨネーズ 大さじ2",
+        "ごま油 大さじ1/2"
+      ],
+      "steps": [
+        "中火で熱したフライパンにごま油をしいて、野菜がなじむまで炒める",
+        "めんつゆ、マヨネーズ、山椒などを入れて全体がなじんだら完成"
+      ],
+      "notes": "",
+      "createdAt": "2026-06-06T03:14:00+00:00",
+      "updatedAt": "2026-06-06T03:14:00+00:00"
+    },
+    {
+      "id": "manual-img-2118-onion-ring",
+      "title": "オニオンリング",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2118.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "玉ねぎ",
+        "薄力粉 100g",
+        "片栗粉 大さじ2",
+        "コンソメ 小さじ1",
+        "水 100cc",
+        "マヨネーズ 大さじ2"
+      ],
+      "steps": [
+        "薄力粉、片栗粉、コンソメ、水、マヨネーズをポリ袋で混ぜる",
+        "玉ねぎに粉をまぶす",
+        "玉ねぎを輪切りにし、ポリ袋の上からマヨネーズと袋に余った粉を入れて衣を作る",
+        "玉ねぎに衣をつけて揚げる"
+      ],
+      "notes": "",
+      "createdAt": "2026-06-06T03:15:00+00:00",
+      "updatedAt": "2026-06-06T03:15:00+00:00"
+    },
+    {
+      "id": "manual-img-2118-tebamoto-fried-chicken",
+      "title": "手羽元のフライドチキン",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2118.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "手羽元 5本〜",
+        "チューブにんにく 1cm",
+        "しょうゆ 大さじ1",
+        "塩 小さじ1/4",
+        "片栗粉 大さじ2.5",
+        "小麦粉 大さじ1"
+      ],
+      "steps": [
+        "手羽元に縦の切り込みを2本入れる",
+        "調味料をポリ袋に入れ、手羽元となじませる",
+        "粉を入れてまぶし、5分おく",
+        "揚げる"
+      ],
+      "notes": "",
+      "createdAt": "2026-06-06T03:16:00+00:00",
+      "updatedAt": "2026-06-06T03:16:00+00:00"
+    },
+    {
+      "id": "manual-img-2119-carbonara-milk-egg",
+      "title": "カルボナーラ（牛乳と卵）",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2119.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "にんにく",
+        "玉ねぎ",
+        "ベーコン",
+        "コンソメ 小さじ2",
+        "牛乳 200ml",
+        "チーズ 適量",
+        "卵 1個"
+      ],
+      "steps": [
+        "オリーブオイルを使ってにんにくを炒め、玉ねぎ、ベーコンも炒める",
+        "牛乳を入れてチーズを溶かして味つけする",
+        "ゆで時間より2分早く上げたパスタを弱火の状態で入れる",
+        "溶いた卵を入れてすばやく全体を混ぜる"
+      ],
+      "notes": "",
+      "createdAt": "2026-06-06T03:17:00+00:00",
+      "updatedAt": "2026-06-06T03:17:00+00:00"
+    },
+    {
+      "id": "manual-img-2119-shikaku-takoyaki",
+      "title": "四角いたこ焼き",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2119.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "小粉料 80g",
+        "だしの粉 1袋",
+        "とりがら 小さじ1/2〜1",
+        "紅しょうが 10g",
+        "キャベツ 50g",
+        "あげ玉 10g",
+        "長ねぎ 10g",
+        "水 160ml",
+        "たこまたはエビ"
+      ],
+      "steps": [
+        "材料を全部混ぜてフライパンに流しこむ。全量だと厚みが出るため、分量を調整する",
+        "フライパンの手前半分にたこを散らして乗せ、奥から任せてたたむ",
+        "両面に焼き目をつけて完成"
+      ],
+      "notes": "小粉料の表記は手書きのまま。薄力粉等か要確認。",
+      "createdAt": "2026-06-06T03:18:00+00:00",
+      "updatedAt": "2026-06-06T03:18:00+00:00"
+    },
+    {
+      "id": "manual-img-2119-raw-rice-vegetable-risotto",
+      "title": "生米から作る野菜のリゾット",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2119.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "米 80g（米計量の半カップ分）",
+        "玉ねぎ 1/4個",
+        "好みの具材",
+        "コンソメ 大さじ1",
+        "水 500ml",
+        "オリーブオイル 大さじ1",
+        "バター 10g",
+        "白ワイン 50ml（あれば）",
+        "塩 適量",
+        "ブラックペッパー 適量"
+      ],
+      "steps": [
+        "鍋に水とコンソメを入れて沸騰させ、そのまま弱火で温度をキープする",
+        "玉ねぎは粗いみじん切りにし、使いたい野菜は角切りにしておく。煮くずれしないものを使う",
+        "フライパンにオリーブオイルをたらし、玉ねぎが透明になるまで炒める",
+        "米を入れて透明になるまで炒める",
+        "白ワイン50mlを入れて中火にする。ここから20〜30分ほどかける",
+        "水分が飛ばないように少しずつコンソメ湯を入れて煮る",
+        "10分ほどしたら硬めの野菜を入れて一緒に煮る",
+        "さらに数分したら柔らかめの野菜を入れて煮る",
+        "20分ほど経ったら水分量を微調整して、米が好みの硬さになったら火を止め、バターを入れて空気を含ませながら混ぜる",
+        "塩、ブラックペッパーで味を整え、好みでチーズをかけて完成"
+      ],
+      "notes": "途中で水分量を調整するメモあり。",
+      "createdAt": "2026-06-06T03:19:00+00:00",
+      "updatedAt": "2026-06-06T03:19:00+00:00"
+    },
+    {
+      "id": "manual-img-2120-satsumaimo-cheese-imomochi",
+      "title": "さつまいものもちもちチーズいももち",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2120.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "さつまいも 300g",
+        "片栗粉 大さじ3",
+        "牛乳 80ml",
+        "塩 少々",
+        "ピザ用チーズ 50g",
+        "有塩バター 10g",
+        "はちみつ 大さじ1"
+      ],
+      "steps": [
+        "さつまいもの皮をむき、3cm幅に切る。ボウルに入れてラップをし、600Wで5分加熱する",
+        "フォークの背でさつまいもを潰し、片栗粉、牛乳を加えて混ぜ、塩を入れて調味する",
+        "ピザ用チーズを包んで丸形にする",
+        "フライパンにバターを熱し、両面を焼く。はちみつをかけて完成"
+      ],
+      "notes": "",
+      "createdAt": "2026-06-06T03:20:00+00:00",
+      "updatedAt": "2026-06-06T03:20:00+00:00"
+    },
+    {
+      "id": "manual-img-2120-renkon-tebamoto-tamago-kokkuri-ni",
+      "title": "れんこん・手羽元・玉子のこっくり煮",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2120.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "れんこん",
+        "手羽元",
+        "玉子",
+        "水 200ml",
+        "しょうゆ 大さじ1",
+        "酒 大さじ1",
+        "みりん 大さじ1",
+        "砂糖 小さじ1",
+        "和風だしの素 小さじ1",
+        "しょうが チューブ1〜2cm"
+      ],
+      "steps": [
+        "ゆで玉子を作る",
+        "肉から焼き、余分な油を拭きとる",
+        "調味料を加える",
+        "10分くらい煮て、最後にゆで玉子を入れて絡めたら完成"
+      ],
+      "notes": "",
+      "createdAt": "2026-06-06T03:21:00+00:00",
+      "updatedAt": "2026-06-06T03:21:00+00:00"
+    },
+    {
+      "id": "manual-img-2120-hasamenai-quiche",
+      "title": "はさめないキッシュ",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2120.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "小松菜またはほうれん草",
+        "玉ねぎ",
+        "ベーコン",
+        "ブロッコリー",
+        "牛乳 150ml",
+        "たまご 3個",
+        "チーズ 適量",
+        "マヨネーズ 適量"
+      ],
+      "steps": [
+        "フライパンでしんなりするまで炒める",
+        "中フライにクッキングシートを敷いて、炒めたものを広げて入れる",
+        "牛乳とたまごを混ぜたものを中フライにかけるように流し入れる",
+        "チーズとマヨネーズをかけてプレートモード180度で30分加熱して完成"
+      ],
+      "notes": "",
+      "createdAt": "2026-06-06T03:22:00+00:00",
+      "updatedAt": "2026-06-06T03:22:00+00:00"
+    },
+    {
+      "id": "manual-img-2120-cabbage-chicken-tomato-ni",
+      "title": "キャベツと鶏肉のトマト煮",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2120.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "キャベツ",
+        "鶏肉",
+        "きのこなど",
+        "トマト缶 1缶",
+        "砂糖 小さじ2",
+        "コンソメ 小さじ2",
+        "水 100ml"
+      ],
+      "steps": [
+        "材料をすべて鍋に入れて加熱する",
+        "火が通り、味がなじむまで煮る"
+      ],
+      "notes": "手順は画像上の記載が少ないため、材料欄横のメモから整理。",
+      "createdAt": "2026-06-06T03:23:00+00:00",
+      "updatedAt": "2026-06-06T03:23:00+00:00"
+    },
+    {
+      "id": "manual-img-2121-tebamoto-daikon-sappari-ni",
+      "title": "手羽元と大根のさっぱり煮",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2121.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "鶏手羽元 8本",
+        "大根",
+        "生姜スライス",
+        "ゆで卵",
+        "酢 100cc",
+        "しょうゆ 70cc",
+        "酒 50cc",
+        "みりん 50cc",
+        "砂糖 大さじ5"
+      ],
+      "steps": [
+        "鍋で生姜を炒めて香りが出たら、手羽元を入れて焼き目をつける",
+        "大根と調味料を入れてフタをして強火にかける",
+        "沸騰したら中火にして20分ほど煮て、大根を柔らかくする"
+      ],
+      "notes": "手羽元は骨と身の間に切れ目を入れておくメモあり。",
+      "createdAt": "2026-06-06T03:24:00+00:00",
+      "updatedAt": "2026-06-06T03:24:00+00:00"
+    },
+    {
+      "id": "manual-img-2121-koya-dofu-karaage",
+      "title": "高野豆腐のから揚げ",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2121.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "高野豆腐 4枚",
+        "片栗粉（衣用）",
+        "しょうゆ 大さじ3",
+        "酒 大さじ3",
+        "みりん 大さじ3",
+        "鶏がらスープの素 大さじ1.5",
+        "ごま油 小さじ1",
+        "こしょう 少々",
+        "生姜チューブ 香りづけ程度",
+        "にんにくチューブ 香りづけ程度"
+      ],
+      "steps": [
+        "高野豆腐にお湯をかけて3分おき、水をかけて冷やして水気を切る",
+        "袋に調味料をすべて入れて絞り、高野豆腐を一口大サイズにちぎって袋の中でなじませる",
+        "片栗粉をまぶし、3分くらい揚げて完成"
+      ],
+      "notes": "しょうゆ、酒、みりんは括弧で大さじ3と読めるが、各大さじ3か合計か要確認。",
+      "createdAt": "2026-06-06T03:25:00+00:00",
+      "updatedAt": "2026-06-06T03:25:00+00:00"
+    },
+    {
+      "id": "manual-img-2121-yaki-saba-mizore-ni",
+      "title": "焼きサバのみぞれ煮",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2121.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "サバ 2切れ",
+        "大根おろし 200g",
+        "薄力粉 大さじ2",
+        "油 大さじ1",
+        "しょうゆ 大さじ2",
+        "酒 大さじ2",
+        "みりん 大さじ2",
+        "水 100ml",
+        "顆粒和風だし 小さじ1",
+        "すりおろし生姜 適量",
+        "青ねぎ 適量"
+      ],
+      "steps": [
+        "サバに薄力粉をまぶし、両面を焼く",
+        "調味料を煮て、沸騰したら中火にして生姜を入れる",
+        "そこにサバを入れて落としぶたをして10分煮る",
+        "大根おろしを入れ、ねぎを散らせば完成"
+      ],
+      "notes": "酒、みりんの分量はしょうゆと同量の表記として整理。",
+      "createdAt": "2026-06-06T03:26:00+00:00",
+      "updatedAt": "2026-06-06T03:26:00+00:00"
+    },
+    {
+      "id": "manual-img-2121-chicken-cabbage-umashio-udon",
+      "title": "鶏肉とキャベツのうま塩うどん",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2121.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "鶏もも肉 200g",
+        "キャベツ 100g",
+        "うどん 2玉",
+        "水 900cc",
+        "白だし 大さじ1",
+        "みりん 大さじ1",
+        "鶏がらスープ 大さじ1",
+        "塩 小さじ1/2",
+        "こしょう 適量",
+        "ごま油 適量"
+      ],
+      "steps": [
+        "鍋に水と調味料を入れて煮立てる",
+        "鶏肉、キャベツ、うどんを加えて火が通るまで煮る",
+        "こしょうとごま油で仕上げる"
+      ],
+      "notes": "手順の記載は少ないため、材料欄から一般的な流れに整理。",
+      "createdAt": "2026-06-06T03:27:00+00:00",
+      "updatedAt": "2026-06-06T03:27:00+00:00"
+    },
+    {
+      "id": "manual-img-2122-renkon-hikiniku-hasamiyaki",
+      "title": "れんこんのひき肉はさみ焼き",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2122.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "スライスれんこん 8枚",
+        "小麦粉（れんこんをまぶす用）",
+        "ひき肉",
+        "片栗粉 大さじ1",
+        "水 大さじ1",
+        "塩 少々",
+        "ごま 飾り用",
+        "砂糖 小さじ1",
+        "しょうゆ 大さじ1と1/2",
+        "みりん 大さじ1と1/2",
+        "水 大さじ1と1/2"
+      ],
+      "steps": [
+        "片栗粉、水、塩をひき肉と混ぜる",
+        "れんこんに小麦粉をまぶし、ひき肉をはさむ",
+        "フライパンで焼き、裏返したタイミングでタレも入れてからめる"
+      ],
+      "notes": "タレのしょうゆ、みりん、水は同量表記として整理。",
+      "createdAt": "2026-06-06T03:28:00+00:00",
+      "updatedAt": "2026-06-06T03:28:00+00:00"
+    },
+    {
+      "id": "manual-img-2122-horenso-tarako-butter-itame",
+      "title": "ほうれん草のたらこバター炒め",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2122.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "たらこ 1切れ（25g）",
+        "ほうれん草",
+        "バター 10g",
+        "酒 小さじ1",
+        "みりん 小さじ1",
+        "しょうゆ 小さじ1"
+      ],
+      "steps": [
+        "ほうれん草を蒸しゆでし、冷水につけて水気をとっておく",
+        "フライパンにバターを熱し、ほうれん草の水気が飛ぶまで炒める",
+        "調味料とたらこを加えて、水気がなくなるまで炒める"
+      ],
+      "notes": "",
+      "createdAt": "2026-06-06T03:29:00+00:00",
+      "updatedAt": "2026-06-06T03:29:00+00:00"
+    },
+    {
+      "id": "manual-img-2122-oishii-namul",
+      "title": "美味しいナムル",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2122.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "ささみ",
+        "きゅうり",
+        "春菊",
+        "にんじん",
+        "もやし",
+        "レタスなど",
+        "塩 適量",
+        "ポン酢 適量",
+        "とりがらスープの素 適量",
+        "ごま油 適量"
+      ],
+      "steps": [
+        "にんじんともやしは2分ほどゆでる",
+        "材料と調味料をすべて混ぜる"
+      ],
+      "notes": "材料、調味料は全て適量のメモ。",
+      "createdAt": "2026-06-06T03:30:00+00:00",
+      "updatedAt": "2026-06-06T03:30:00+00:00"
+    },
+    {
+      "id": "manual-img-2122-harusame-lettuce-mayo-salad",
+      "title": "春雨レタスのマヨサラダ",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2122.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "春雨",
+        "レタス",
+        "きゅうり",
+        "ハム",
+        "卵（焼いて細切り）",
+        "マヨネーズ 大さじ3",
+        "オリーブオイル 小さじ2",
+        "レモン汁 小さじ2",
+        "塩 少々"
+      ],
+      "steps": [
+        "春雨を戻す",
+        "レタス、きゅうり、ハム、卵を食べやすく切る",
+        "調味料と具材を混ぜる"
+      ],
+      "notes": "",
+      "createdAt": "2026-06-06T03:31:00+00:00",
+      "updatedAt": "2026-06-06T03:31:00+00:00"
+    },
+    {
+      "id": "manual-img-2122-hakusai-shin-tsukemono",
+      "title": "白菜の芯 簡単漬けもの",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2122.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "白菜の芯部分",
+        "塩 少々",
+        "しょうが薄切り 1/2かけ分",
+        "輪切り唐辛子",
+        "酢 大さじ2",
+        "砂糖 小さじ2",
+        "塩 小さじ1/2",
+        "ごま油 小さじ1"
+      ],
+      "steps": [
+        "白菜の芯を塩もみして10分ほどおく",
+        "水気を切って、しょうがと調味料Aをすべて混ぜる"
+      ],
+      "notes": "",
+      "createdAt": "2026-06-06T03:32:00+00:00",
+      "updatedAt": "2026-06-06T03:32:00+00:00"
+    },
+    {
+      "id": "manual-img-2123-umezu-cabbage-salad",
+      "title": "梅酢のキャベツサラダ",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2123.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "キャベツ 1/4切り",
+        "卵（焼いて薄切り）",
+        "だし粉末 適量",
+        "ごま油 適量",
+        "梅酢 適量",
+        "塩 適量"
+      ],
+      "steps": [
+        "キャベツ、薄切り卵、調味料を和えて完成"
+      ],
+      "notes": "手書きでは梅酢の後ろに別文字が見えるため要確認。",
+      "createdAt": "2026-06-06T03:33:00+00:00",
+      "updatedAt": "2026-06-06T03:33:00+00:00"
+    },
+    {
+      "id": "manual-img-2123-aji-sawayaka-marine",
+      "title": "アジの爽やかマリネ",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2123.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "アジ 2尾",
+        "玉ねぎ",
+        "ピーマン",
+        "にんじん",
+        "トマト",
+        "レモン",
+        "みりん 大さじ1/2",
+        "しょうゆ 大さじ1/2",
+        "酒 大さじ1",
+        "お酢 大さじ2",
+        "白だし 大さじ2",
+        "水 50cc",
+        "一味唐辛子 小さじ1/3",
+        "砂糖 小さじ1"
+      ],
+      "steps": [
+        "玉ねぎは薄切りにして塩水にさらす",
+        "アジをフライパンで焼き色がつくまで焼く",
+        "玉ねぎは水を切り、他の野菜も一緒にボウルに入れる",
+        "調味料を合わせて小鍋で煮立たせ、火を止めてごま油大さじ1を加える",
+        "焼いたアジをボウルに入れ、調味料を注いで混ぜる",
+        "最後にトマトを入れてやさしく混ぜ合わせる",
+        "こしょうをかけて冷蔵庫で30分〜6時間寝かせて完成"
+      ],
+      "notes": "",
+      "createdAt": "2026-06-06T03:34:00+00:00",
+      "updatedAt": "2026-06-06T03:34:00+00:00"
+    },
+    {
+      "id": "manual-img-2123-kanikama-tenshinhan",
+      "title": "カニカマ天津飯",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2123.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "卵 3個",
+        "カニカマ",
+        "水 300cc",
+        "砂糖 大さじ1.5",
+        "鶏がらスープの素 小さじ2",
+        "酒 大さじ1",
+        "酢 大さじ1",
+        "しょうゆ 大さじ2",
+        "オイスターソース 小さじ1",
+        "片栗粉 大さじ1.5",
+        "塩 仕上げ用",
+        "ごま油 仕上げ用",
+        "こしょう 仕上げ用"
+      ],
+      "steps": [
+        "調味料を小鍋で中火にかけ、水溶き片栗粉を入れて仕上げにごま油をかける",
+        "卵に塩を適量入れてカニカマをほぐし入れる。フライパンで1人分ずつ半熟で焼く",
+        "チャーハンにカニ玉をのせ、あんをかけて完成"
+      ],
+      "notes": "2人分。",
+      "createdAt": "2026-06-06T03:35:00+00:00",
+      "updatedAt": "2026-06-06T03:35:00+00:00"
+    },
+    {
+      "id": "manual-img-2124-buta-nira-chuka-itame",
+      "title": "豚こま切肉とニラの中華風炒め",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2124.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "豚こま切肉",
+        "ニラ",
+        "オイスターソース 大さじ2",
+        "しょうゆ 大さじ1.5",
+        "酒 大さじ1",
+        "みりん 大さじ1",
+        "ごま油 仕上げに適量",
+        "にんにく 1かけ"
+      ],
+      "steps": [
+        "にんにくを最初に炒めて香りを出す",
+        "豚肉とニラを炒める",
+        "調味料を加えて炒め合わせ、仕上げにごま油を回しかける"
+      ],
+      "notes": "画像左端で材料欄の一部が切れているため、タイトルと読める調味料から整理。",
+      "createdAt": "2026-06-06T03:36:00+00:00",
+      "updatedAt": "2026-06-06T03:36:00+00:00"
+    },
+    {
+      "id": "manual-img-2124-ninjin-mitsuba-namul",
+      "title": "ニンジンと三つ葉のナムル",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2124.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "にんじん 半分",
+        "三つ葉",
+        "塩昆布 5g",
+        "ごま油 小さじ2",
+        "塩 ひとつまみ",
+        "白ごま"
+      ],
+      "steps": [
+        "にんじんを千切りにして塩もみし、レンジで3分加熱する",
+        "三つ葉、塩昆布、ごま油、塩、白ごまと全て和えて完成"
+      ],
+      "notes": "",
+      "createdAt": "2026-06-06T03:37:00+00:00",
+      "updatedAt": "2026-06-06T03:37:00+00:00"
+    },
+    {
+      "id": "manual-img-2124-tofu-hamburg",
+      "title": "豆腐ハンバーグ",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2124.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "ひき肉",
+        "豆腐",
+        "玉ねぎ",
+        "パン粉",
+        "コンソメ 小さじ1",
+        "卵 1個",
+        "塩こしょう"
+      ],
+      "steps": [
+        "玉ねぎは一緒に炒めておくとよい",
+        "材料をすべて混ぜて形成する",
+        "フライパンで焼く"
+      ],
+      "notes": "",
+      "createdAt": "2026-06-06T03:38:00+00:00",
+      "updatedAt": "2026-06-06T03:38:00+00:00"
+    },
+    {
+      "id": "manual-img-2124-hoikoro",
+      "title": "回鍋肉",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2124.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "豚肉",
+        "キャベツ",
+        "玉ねぎ",
+        "ピーマン",
+        "しめじなど",
+        "しょうゆ 大さじ1",
+        "酒 大さじ1",
+        "水 大さじ1〜2",
+        "おろしにんにく 1かけ",
+        "甜麺醤 大さじ1",
+        "豆板醤 小さじ1",
+        "味噌 小さじ1",
+        "砂糖 小さじ2"
+      ],
+      "steps": [
+        "調味料をすべて混ぜておく",
+        "豚肉と野菜を炒める",
+        "合わせ調味料を加えて炒め合わせる"
+      ],
+      "notes": "",
+      "createdAt": "2026-06-06T03:39:00+00:00",
+      "updatedAt": "2026-06-06T03:39:00+00:00"
+    },
+    {
+      "id": "manual-img-2125-koya-atsuage-agebitashi",
+      "title": "高野豆腐・厚揚げ豆腐の煮浸し",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2125.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "高野豆腐または厚揚げ豆腐",
+        "片栗粉 適量",
+        "ミニトマト",
+        "ナス",
+        "揚げ油",
+        "ごま油 大さじ2",
+        "めんつゆ 80ml",
+        "水 80ml",
+        "酢 大さじ1",
+        "わさび 小さじ1"
+      ],
+      "steps": [
+        "豆腐に片栗粉をまぶして揚げる",
+        "ミニトマトとナスを素揚げする",
+        "めんつゆ、水、酢、わさびを混ぜる",
+        "材料が熱いうちに浸し汁をかける"
+      ],
+      "notes": "",
+      "createdAt": "2026-06-06T03:40:00+00:00",
+      "updatedAt": "2026-06-06T03:40:00+00:00"
+    },
+    {
+      "id": "manual-img-2125-sake-dashi-chazuke",
+      "title": "鮭の出汁茶漬け",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2125.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "鮭（焼き鮭、ほぐしなど）",
+        "塩こんぶ",
+        "梅",
+        "のり",
+        "水 700cc",
+        "だしの素 大さじ1/2",
+        "白だし 小さじ1〜2",
+        "しょうゆ 小さじ2",
+        "みりん 小さじ2",
+        "酒 小さじ2",
+        "塩 小さじ1/3"
+      ],
+      "steps": [
+        "出汁の材料を煮立てる",
+        "ごはんに鮭、塩こんぶ、梅、のりをのせる",
+        "出汁をかけて完成"
+      ],
+      "notes": "2人分。",
+      "createdAt": "2026-06-06T03:41:00+00:00",
+      "updatedAt": "2026-06-06T03:41:00+00:00"
+    },
+    {
+      "id": "manual-img-2125-ninjin-cream-cheese-ae",
+      "title": "にんじんのクリームチーズ和え",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2125.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "にんじん 千切り",
+        "クリームチーズ",
+        "めんつゆ"
+      ],
+      "steps": [
+        "にんじんをレンジで2分半加熱する",
+        "クリームチーズとめんつゆで和える"
+      ],
+      "notes": "加熱方法の手書きは一部判読が難しいため要確認。",
+      "createdAt": "2026-06-06T03:42:00+00:00",
+      "updatedAt": "2026-06-06T03:42:00+00:00"
+    },
+    {
+      "id": "manual-img-2125-broccoli-shin-sengiri-ae",
+      "title": "ブロッコリーの芯の千切り和え",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2125.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "ブロッコリーの芯 千切り",
+        "めんつゆ",
+        "ラー油",
+        "かつお節"
+      ],
+      "steps": [
+        "ブロッコリーの芯を千切りにしてレンジで1分半加熱する",
+        "めんつゆ、ラー油、かつお節で和える"
+      ],
+      "notes": "",
+      "createdAt": "2026-06-06T03:43:00+00:00",
+      "updatedAt": "2026-06-06T03:43:00+00:00"
+    },
+    {
+      "id": "manual-img-2125-sake-honey-mustard",
+      "title": "鮭のハニーマスタード",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2125.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "鮭",
+        "片栗粉",
+        "粒マスタード 大さじ2",
+        "はちみつ 大さじ1.5",
+        "しょうゆ 大さじ1"
+      ],
+      "steps": [
+        "鮭に片栗粉をまぶして両面を焼く",
+        "粒マスタード、はちみつ、しょうゆをフライパンに入れてからめる"
+      ],
+      "notes": "",
+      "createdAt": "2026-06-06T03:44:00+00:00",
+      "updatedAt": "2026-06-06T03:44:00+00:00"
+    },
+    {
+      "id": "manual-img-2125-daikon-poripori-zuke",
+      "title": "大根のぽりぽり漬け",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2125.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "大根",
+        "しょうゆ 50cc",
+        "酢 50cc",
+        "砂糖 30g",
+        "唐辛子 適量"
+      ],
+      "steps": [
+        "大根は厚めに皮をむいて1口大に切る。細く切って保存容器に入れる",
+        "しょうゆ、酢、砂糖、唐辛子を煮る",
+        "大根に煮汁をかけ、一晩おいて完成"
+      ],
+      "notes": "",
+      "createdAt": "2026-06-06T03:45:00+00:00",
+      "updatedAt": "2026-06-06T03:45:00+00:00"
+    },
+    {
+      "id": "manual-img-2126-yaki-tomorokoshi",
+      "title": "焼きとうもろこし",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2126.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "とうもろこし",
+        "バター",
+        "しょうゆ 大さじ1",
+        "砂糖 大さじ1/2",
+        "みりん 大さじ1/2"
+      ],
+      "steps": [
+        "とうもろこしは皮を1枚残してそのままレンジで5分加熱する",
+        "フライパンにバターを溶かしてとうもろこしを焼き、ほんのり焼き色がついたら調味料を入れて煮詰めながらからめる"
+      ],
+      "notes": "",
+      "createdAt": "2026-06-06T03:46:00+00:00",
+      "updatedAt": "2026-06-06T03:46:00+00:00"
+    },
+    {
+      "id": "manual-img-2126-komatsuna-okaka-furikake",
+      "title": "小松菜とおかかのふりかけ",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2126.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "小松菜",
+        "おかか",
+        "ごま油",
+        "白ごま 大さじ1/2程度",
+        "しょうゆ 大さじ1/2程度",
+        "みりん 大さじ1/2程度"
+      ],
+      "steps": [
+        "材料を軽く炒める"
+      ],
+      "notes": "調味料の分量は手書きの見え方から整理。",
+      "createdAt": "2026-06-06T03:47:00+00:00",
+      "updatedAt": "2026-06-06T03:47:00+00:00"
+    },
+    {
+      "id": "manual-img-2126-wakame-gohan",
+      "title": "わかめごはん",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2126.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "米 2合",
+        "酒 大さじ1",
+        "みりん 大さじ1",
+        "白だし 大さじ1",
+        "塩 小さじ1",
+        "わかめ",
+        "白ごま"
+      ],
+      "steps": [
+        "米、酒、みりん、白だし、塩を入れ、2合分の水量で炊く",
+        "炊き上がったらわかめと白ごまを混ぜる"
+      ],
+      "notes": "",
+      "createdAt": "2026-06-06T03:48:00+00:00",
+      "updatedAt": "2026-06-06T03:48:00+00:00"
+    },
+    {
+      "id": "manual-img-2126-karashi-sumiso",
+      "title": "からし酢みそ",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2126.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "酢 大さじ1",
+        "白味噌 大さじ1",
+        "辛子（チューブ）小さじ1",
+        "砂糖 小さじ1"
+      ],
+      "steps": [
+        "材料を混ぜる"
+      ],
+      "notes": "",
+      "createdAt": "2026-06-06T03:49:00+00:00",
+      "updatedAt": "2026-06-06T03:49:00+00:00"
+    },
+    {
+      "id": "manual-img-2126-demi-glace-sauce",
+      "title": "デミグラスソース",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2126.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "ケチャップ 大さじ4",
+        "ウスターソース 大さじ2",
+        "とんかつソース 大さじ2",
+        "はちみつ 大さじ1",
+        "牛乳 大さじ4"
+      ],
+      "steps": [
+        "材料を混ぜる"
+      ],
+      "notes": "2人分。",
+      "createdAt": "2026-06-06T03:50:00+00:00",
+      "updatedAt": "2026-06-06T03:50:00+00:00"
+    },
+    {
+      "id": "manual-img-2127-renji-kome-daki",
+      "title": "レンジで米炊き",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2127.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "米 100g（1人前）",
+        "水 160g"
+      ],
+      "steps": [
+        "ジップロックタッパーに100gの米を入れる",
+        "水を160g入れて総重量を260gくらいにする",
+        "1時間くらい、または一晩浸けておく",
+        "500Wで5分加熱し、一旦米を混ぜる",
+        "200Wで8分くらい加熱し、5分ほど蒸らす"
+      ],
+      "notes": "2人前は米200g、水300g。500W 5分、200W 13分のメモあり。無洗米の記載あり。",
+      "createdAt": "2026-06-06T03:51:00+00:00",
+      "updatedAt": "2026-06-06T03:51:00+00:00"
+    },
+    {
+      "id": "manual-img-2127-nasu-buta-bara-itamemono",
+      "title": "ナスと豚バラ肉の炒めもの",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2127.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "豚バラ肉",
+        "なす（輪切り）",
+        "酒 大さじ2",
+        "みりん 大さじ2",
+        "めんつゆ（3倍濃縮）大さじ1.5",
+        "いりごま",
+        "小ねぎ"
+      ],
+      "steps": [
+        "豚肉を炒めて色が変わったらナスを入れ、並べた状態で焼く",
+        "ナスが色づいたら裏返して、なすの上に豚肉をかけるようにして乗せる",
+        "両面に焼き色がついたら調味料を入れて沸かし、煮からめる",
+        "好みでいりごま、小ねぎを散らして完成"
+      ],
+      "notes": "",
+      "createdAt": "2026-06-06T03:52:00+00:00",
+      "updatedAt": "2026-06-06T03:52:00+00:00"
+    },
+    {
+      "id": "manual-img-2127-nasu-zucchini-buta-hasamiyaki",
+      "title": "ナス・ズッキーニ・豚肉の交互挟み焼き",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2127.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "ナス",
+        "ズッキーニ",
+        "豚肉",
+        "塩",
+        "オリーブオイル"
+      ],
+      "steps": [
+        "輪切りにしたナス、ズッキーニ、豚肉を交互につめてトースターで焼く",
+        "塩とオリーブオイルで下味をつける"
+      ],
+      "notes": "",
+      "createdAt": "2026-06-06T03:53:00+00:00",
+      "updatedAt": "2026-06-06T03:53:00+00:00"
+    },
+    {
+      "id": "manual-img-2127-shishito-yakibitashi",
+      "title": "ししとうのちょっぱり焼き浸し",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2127.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "ししとう 20本くらい",
+        "ごま油 小さじ2",
+        "水 100cc",
+        "めんつゆ 大さじ2",
+        "酢 大さじ1/2",
+        "かつおぶし 適量"
+      ],
+      "steps": [
+        "フライパンにごま油をたらして火をかけ、ししとうを色鮮やかになるまで炒める",
+        "合わせた調味料にししとうを入れて10分おく",
+        "最後にかつおぶしをかける"
+      ],
+      "notes": "別案として水大さじ2、酒・みりん・醤油各大さじ1、しいたけを一緒に煮るメモあり。",
+      "createdAt": "2026-06-06T03:54:00+00:00",
+      "updatedAt": "2026-06-06T03:54:00+00:00"
+    },
+    {
+      "id": "manual-img-2128-dashi-shoyu-zuke-nagaimo",
+      "title": "だししょうゆ漬け長芋",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2128.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "長芋 1本",
+        "しょうゆ 50cc",
+        "みりん 50cc"
+      ],
+      "steps": [
+        "しょうゆとみりんを火にかけ、沸騰したら冷ます",
+        "皮をむいた長芋を漬けて一晩おく"
+      ],
+      "notes": "",
+      "createdAt": "2026-06-06T03:55:00+00:00",
+      "updatedAt": "2026-06-06T03:55:00+00:00"
+    },
+    {
+      "id": "manual-img-2128-torikizoku-fu-shio-cabbage",
+      "title": "鳥貴族風 塩キャベツ",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2128.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "キャベツ",
+        "めんつゆ 大さじ1",
+        "ポン酢 大さじ1",
+        "ごま油 大さじ1",
+        "塩 ひとつまみ"
+      ],
+      "steps": [
+        "キャベツと調味料を和える"
+      ],
+      "notes": "",
+      "createdAt": "2026-06-06T03:56:00+00:00",
+      "updatedAt": "2026-06-06T03:56:00+00:00"
+    },
+    {
+      "id": "manual-img-2128-kara-moyashi-namul",
+      "title": "辛もやしナムル",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2128.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "もやし 1袋",
+        "ごま油 大さじ2",
+        "しょうゆ 大さじ2",
+        "白いりごま 大さじ2",
+        "すりおろしにんにく 小さじ1",
+        "豆板醤 小さじ1/2"
+      ],
+      "steps": [
+        "もやしを袋ごとレンジで3分加熱する",
+        "調味料と和えて完成"
+      ],
+      "notes": "",
+      "createdAt": "2026-06-06T03:57:00+00:00",
+      "updatedAt": "2026-06-06T03:57:00+00:00"
+    },
+    {
+      "id": "manual-img-2128-mentsuyu-ingen-gomaae",
+      "title": "麺つゆでインゲンの胡麻和え",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2128.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "いんげん",
+        "麺つゆ 大さじ2",
+        "砂糖 大さじ1",
+        "白すりごま 大さじ2"
+      ],
+      "steps": [
+        "いんげんの筋を取る",
+        "塩を入れた湯で2分茹でる",
+        "冷水にとり、1/3に切る",
+        "調味料と和えて完成"
+      ],
+      "notes": "",
+      "createdAt": "2026-06-06T03:58:00+00:00",
+      "updatedAt": "2026-06-06T03:58:00+00:00"
+    },
+    {
+      "id": "manual-img-2128-cauliflower-cheese-yaki",
+      "title": "カリフラワーのチーズ焼き",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2128.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "カリフラワー 1/2株",
+        "ピザ用チーズ 30g",
+        "マヨネーズ 大さじ3",
+        "おろしにんにく 小さじ1/2",
+        "こしょう 少々"
+      ],
+      "steps": [
+        "カリフラワーを一口大に切り、5分ほど茹でる",
+        "カリフラワーをマヨネーズ、おろしにんにく、こしょうと耐熱容器で和える",
+        "チーズを包むようにのせ、トースターで焼く"
+      ],
+      "notes": "",
+      "createdAt": "2026-06-06T03:59:00+00:00",
+      "updatedAt": "2026-06-06T03:59:00+00:00"
+    },
+    {
+      "id": "manual-img-2128-nira-komi-ae",
+      "title": "ニラの香味和え",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2128.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "ニラ 1束",
+        "しょうゆ 大さじ2",
+        "砂糖 大さじ1",
+        "白いりごま 大さじ1",
+        "ごま油 大さじ1",
+        "おろししょうが 小さじ1",
+        "一味 小さじ1"
+      ],
+      "steps": [
+        "ボウルに細かく刻んだニラを入れる",
+        "調味料を順に入れて混ぜる"
+      ],
+      "notes": "麺類に役立つ、というメモあり。",
+      "createdAt": "2026-06-06T04:00:00+00:00",
+      "updatedAt": "2026-06-06T04:00:00+00:00"
+    },
+    {
+      "id": "manual-img-2129-chashu-gawari",
+      "title": "チャーシューの代わりに",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2129.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "豚こま肉 150g",
+        "にんにくチューブ 5mm",
+        "生姜チューブ 5mm",
+        "水 大さじ1",
+        "酒 大さじ1",
+        "みりん 大さじ1",
+        "しょうゆ 大さじ1",
+        "鶏がらスープの素 小さじ1/2",
+        "はちみつまたは砂糖 小さじ1"
+      ],
+      "steps": [
+        "豚こま肉と調味料を合わせて加熱する"
+      ],
+      "notes": "ラーメン用チャーシュー代用メモ。",
+      "createdAt": "2026-06-06T04:01:00+00:00",
+      "updatedAt": "2026-06-06T04:01:00+00:00"
+    },
+    {
+      "id": "manual-img-2129-mazeru-dake-honkaku-shoyu-ramen",
+      "title": "混ぜるだけ本格醤油ラーメン",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2129.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "お湯 350ml",
+        "しょうゆ 大さじ1",
+        "めんつゆ（3倍濃縮）大さじ1",
+        "オイスターソース 小さじ1",
+        "鶏がらスープの素 小さじ1",
+        "おろしにんにく 5mm",
+        "ごま油 小さじ1/2",
+        "塩こしょう 少々"
+      ],
+      "steps": [
+        "材料を混ぜ、茹でた麺に合わせる"
+      ],
+      "notes": "1人前。",
+      "createdAt": "2026-06-06T04:02:00+00:00",
+      "updatedAt": "2026-06-06T04:02:00+00:00"
+    },
+    {
+      "id": "manual-img-2129-mazeru-dake-yuzukosho-shio-ramen",
+      "title": "混ぜるだけ柚子胡椒塩ラーメン",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2129.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "鶏がらスープの素 大さじ1",
+        "塩 小さじ1/2",
+        "柚子胡椒 小さじ1/2",
+        "ごま油 小さじ1/2",
+        "白ごま 小さじ1/2",
+        "にんにく 5mm"
+      ],
+      "steps": [
+        "材料を混ぜ、茹でた麺に合わせる"
+      ],
+      "notes": "1人前。",
+      "createdAt": "2026-06-06T04:03:00+00:00",
+      "updatedAt": "2026-06-06T04:03:00+00:00"
+    },
+    {
+      "id": "manual-img-2129-mazeru-dake-miso-ramen",
+      "title": "混ぜるだけ味噌ラーメン",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2129.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "豚こま肉 100g",
+        "ごま油 大さじ1/2",
+        "生姜チューブ 1cm",
+        "にんにくチューブ 1cm",
+        "みそ 大さじ3",
+        "豆板醤 小さじ1",
+        "長ねぎ 白い部分 10cm程度",
+        "水 300ml",
+        "鶏がらスープの素 大さじ1",
+        "めんつゆ 大さじ1",
+        "塩 小さじ1/2",
+        "砂糖 小さじ2",
+        "ラー油または胡椒 適量",
+        "バター 適量"
+      ],
+      "steps": [
+        "豚こま肉をごま油で炒める",
+        "調味料と水を加えて5分くらい煮る",
+        "麺に合わせ、好みでラー油、胡椒、バターをのせる"
+      ],
+      "notes": "2人前のメモ。長ねぎ分量は手書きが不明瞭なため要確認。",
+      "createdAt": "2026-06-06T04:04:00+00:00",
+      "updatedAt": "2026-06-06T04:04:00+00:00"
+    },
+    {
+      "id": "manual-img-2129-mashed-potato",
+      "title": "マッシュポテト",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2129.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "芋 大2個くらい",
+        "牛乳 100ml",
+        "バター 20g",
+        "粉チーズ 大さじ2",
+        "塩 少々",
+        "こしょう 小さじ1",
+        "白ワインビネガー 適量",
+        "ヨーグルト 適量"
+      ],
+      "steps": [
+        "芋をレンジで8分加熱する。皮はむかず、後から取る",
+        "鍋に調味料と芋を全部入れて、ふつふつしないように混ぜて仕上げる"
+      ],
+      "notes": "「睡蓮オリジナル」のメモあり。",
+      "createdAt": "2026-06-06T04:05:00+00:00",
+      "updatedAt": "2026-06-06T04:05:00+00:00"
+    },
+    {
+      "id": "manual-img-2129-broccoli-cabbage-ham-ko-cheese-salad",
+      "title": "ブロッコリーとキャベツ、ハムの粉チーズサラダ",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2129.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "ブロッコリー",
+        "キャベツ",
+        "ハム",
+        "酢 大さじ1",
+        "オリーブオイル 大さじ1",
+        "粉チーズ 大さじ3",
+        "昆布茶または昆布だしの素 小さじ2"
+      ],
+      "steps": [
+        "ブロッコリー、キャベツ、ハムを食べやすく切る",
+        "調味料で和える"
+      ],
+      "notes": "",
+      "createdAt": "2026-06-06T04:06:00+00:00",
+      "updatedAt": "2026-06-06T04:06:00+00:00"
+    },
+    {
+      "id": "manual-img-2129-sour-cream-onion",
+      "title": "サワークリームオニオン",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2129.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "サワークリーム",
+        "玉ねぎ（みじん切り）",
+        "パセリ",
+        "にんにくすりおろし 少々",
+        "コンソメ 小さじ1/8〜1/5くらい",
+        "塩こしょう"
+      ],
+      "steps": [
+        "玉ねぎは切ったらしばらく空気にさらしておく",
+        "材料を混ぜるだけ"
+      ],
+      "notes": "",
+      "createdAt": "2026-06-06T04:07:00+00:00",
+      "updatedAt": "2026-06-06T04:07:00+00:00"
+    },
+    {
+      "id": "manual-img-2130-ramenya-soup",
+      "title": "ラーメンやのスープ",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2130.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "長ねぎ 10cm",
+        "水 200cc",
+        "シャンタンDX 小さじ1",
+        "しょうゆ 小さじ1",
+        "ホワイトペッパー 少々"
+      ],
+      "steps": [
+        "材料を煮てスープにする"
+      ],
+      "notes": "",
+      "createdAt": "2026-06-06T04:08:00+00:00",
+      "updatedAt": "2026-06-06T04:08:00+00:00"
+    },
+    {
+      "id": "manual-img-2130-nanohana-karashi-ae",
+      "title": "菜の花からし和え",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2130.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "菜の花",
+        "マヨネーズ 大さじ1",
+        "和からし 小さじ1",
+        "しょうゆ 少々"
+      ],
+      "steps": [
+        "菜の花は太い茎を茹で、葉は5秒くらいでさっと茹でる",
+        "茹でてから切る",
+        "水気を切って、マヨネーズ、和からし、しょうゆを混ぜて菜の花と和える"
+      ],
+      "notes": "",
+      "createdAt": "2026-06-06T04:09:00+00:00",
+      "updatedAt": "2026-06-06T04:09:00+00:00"
+    },
+    {
+      "id": "manual-img-2130-amari-gohan-cheese-risotto",
+      "title": "余りごはんのチーズリゾット",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2130.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "冷ごはん お椀2杯程度",
+        "玉ねぎ スライス",
+        "ベーコン",
+        "にんにく スライス",
+        "コンソメ 大さじ1〜1.5",
+        "牛乳 100ml",
+        "粉チーズ 大さじ2",
+        "とろけるチーズ 1〜2枚",
+        "バター 10g"
+      ],
+      "steps": [
+        "バターでにんにく、玉ねぎを炒める",
+        "ベーコンなどを入れる",
+        "ごはんと、ごはんがかぶる程度の水、コンソメを入れて炒め煮する",
+        "水分がなくなってきたら牛乳とチーズを入れ、米の望む硬さで最後に半分チーズを入れる"
+      ],
+      "notes": "",
+      "createdAt": "2026-06-06T04:10:00+00:00",
+      "updatedAt": "2026-06-06T04:10:00+00:00"
+    },
+    {
+      "id": "manual-img-2130-mentai-cream-udon",
+      "title": "明太クリームうどん",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2130.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "明太子 100g",
+        "冷凍うどん 2玉",
+        "青ねぎ 千切り",
+        "のり",
+        "めんつゆ 大さじ2",
+        "バター 10g",
+        "牛乳 150ml",
+        "レモン汁 小さじ1（あれば）"
+      ],
+      "steps": [
+        "明太子はAの中に入れて混ぜる",
+        "冷凍うどんはレンジする",
+        "めんつゆ、バター、牛乳、レモン汁を混ぜて鍋で温める",
+        "うどんにソースをからめ、青ねぎとのりをのせる"
+      ],
+      "notes": "2人分。",
+      "createdAt": "2026-06-06T04:11:00+00:00",
+      "updatedAt": "2026-06-06T04:11:00+00:00"
+    },
+    {
+      "id": "manual-img-2131-hijiki-nimono",
+      "title": "ひじきの煮物",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2131.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "ひじき 200g（戻したもの）",
+        "大豆水煮",
+        "にんじん",
+        "ごま油 炒め用",
+        "しょうゆ 大さじ1",
+        "みりん 大さじ2",
+        "酒 大さじ2",
+        "砂糖 小さじ1",
+        "顆粒だし 小さじ1/2",
+        "水 200ml"
+      ],
+      "steps": [
+        "具材をごま油で炒める",
+        "調味料を入れて10分煮る"
+      ],
+      "notes": "",
+      "createdAt": "2026-06-06T04:12:00+00:00",
+      "updatedAt": "2026-06-06T04:12:00+00:00"
+    },
+    {
+      "id": "manual-img-2131-nokori-curry-udon",
+      "title": "カレーの残り カレーうどん",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2131.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "カレー お玉2杯分",
+        "うどん 1玉",
+        "めんつゆ 大さじ3",
+        "水 100cc",
+        "飾りねぎ"
+      ],
+      "steps": [
+        "残りカレーに水とめんつゆを加えて温める",
+        "うどんを入れて煮る",
+        "飾りねぎをのせる"
+      ],
+      "notes": "",
+      "createdAt": "2026-06-06T04:13:00+00:00",
+      "updatedAt": "2026-06-06T04:13:00+00:00"
+    },
+    {
+      "id": "manual-img-2131-french-toast",
+      "title": "フレンチトースト",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2131.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "食パン 2枚",
+        "牛乳 100cc",
+        "砂糖 大さじ1.5弱",
+        "卵 1個",
+        "バター"
+      ],
+      "steps": [
+        "食パンを卵液に30分ほど両面ひたす",
+        "バターで焼く"
+      ],
+      "notes": "食パンの耳は取るメモあり。",
+      "createdAt": "2026-06-06T04:14:00+00:00",
+      "updatedAt": "2026-06-06T04:14:00+00:00"
+    },
+    {
+      "id": "manual-img-2131-shiraae-horenso-ninjin",
+      "title": "白和え（ほうれん草・にんじん）",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2131.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "絹豆腐（水切り）1/2丁",
+        "ほうれん草 200g",
+        "にんじん 30g",
+        "すりごま 大さじ1",
+        "しょうゆ 大さじ1",
+        "さとう 大さじ1/2",
+        "ほんだし 小さじ1/3",
+        "塩 少々"
+      ],
+      "steps": [
+        "豆腐を水切りする",
+        "ほうれん草とにんじんを茹でる",
+        "すりごま、しょうゆ、砂糖、ほんだし、塩で和える"
+      ],
+      "notes": "",
+      "createdAt": "2026-06-06T04:15:00+00:00",
+      "updatedAt": "2026-06-06T04:15:00+00:00"
+    },
+    {
+      "id": "manual-img-2132-yaki-udon",
+      "title": "焼きうどん",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2132.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "うどん 2〜3玉",
+        "しょうゆ 大さじ1.5〜大さじ2弱",
+        "酒 大さじ1〜1.5",
+        "だし 小さじ1/2〜1弱"
+      ],
+      "steps": [
+        "うどんと具材を炒め、調味料で味つけする"
+      ],
+      "notes": "2玉分と3玉分の調味料メモあり。",
+      "createdAt": "2026-06-06T04:16:00+00:00",
+      "updatedAt": "2026-06-06T04:16:00+00:00"
+    },
+    {
+      "id": "manual-img-2132-kiri-kombu-tsukudani",
+      "title": "切り昆布の佃煮",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2132.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "切り昆布 100g",
+        "白いりごま",
+        "酒 大さじ2",
+        "みりん 大さじ2",
+        "しょうゆ 大さじ2",
+        "砂糖 大さじ1",
+        "水 150cc"
+      ],
+      "steps": [
+        "調味料と切り昆布を煮る",
+        "煮てアクをとばす",
+        "最後に白いりごまをふりかける"
+      ],
+      "notes": "",
+      "createdAt": "2026-06-06T04:17:00+00:00",
+      "updatedAt": "2026-06-06T04:17:00+00:00"
+    },
+    {
+      "id": "manual-img-2132-cake-sale-curry",
+      "title": "ケークサレ カレー味",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2132.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "人参",
+        "好みの材料 適量",
+        "卵 2個",
+        "塩 3g",
+        "ごま油 20g",
+        "米粉 80〜100g",
+        "ベーキングパウダー 4g",
+        "カレー粉 20g",
+        "粉チーズ 大さじ1"
+      ],
+      "steps": [
+        "18cmパウンド型を用意し、オーブンを180度に予熱する",
+        "卵、塩、ごま油をボウルで混ぜる",
+        "米粉、ベーキングパウダー、カレー粉、粉チーズを混ぜる",
+        "具材と生地を合わせ、型に流し入れる",
+        "180度で40分焼く"
+      ],
+      "notes": "180度予熱10分のメモあり。",
+      "createdAt": "2026-06-06T04:18:00+00:00",
+      "updatedAt": "2026-06-06T04:18:00+00:00"
+    },
+    {
+      "id": "manual-img-2132-kabocha-almond-milk-cake-sale",
+      "title": "かぼちゃ×アーモンドミルク",
+      "category": "",
+      "status": "review",
+      "tags": [],
+      "sourceImage": "assets/processed-images/IMG_2132.HEIC.png",
+      "generatedImage": "",
+      "ingredients": [
+        "ベーコン",
+        "ほうれん草",
+        "玉ねぎ",
+        "スライスオリーブ 大さじ1くらい",
+        "米粉 120g",
+        "ベーキングパウダー 4g",
+        "砂糖 小さじ1",
+        "塩 小さじ1/4",
+        "卵 2個",
+        "かぼちゃペースト 50g",
+        "ミルク 60g",
+        "オリーブオイル 大さじ1",
+        "粉チーズ 大さじ1"
+      ],
+      "steps": [
+        "ベーコン、ほうれん草、玉ねぎ、スライスオリーブを炒めておく",
+        "ポリ袋で米粉、ベーキングパウダー、砂糖、塩を混ぜる",
+        "ボウルで卵を溶き、かぼちゃペースト、ミルク、オリーブオイル、粉チーズをよく混ぜる",
+        "粉類と具材を合わせて型に流し入れる",
+        "180度で40分焼いて完成"
+      ],
+      "notes": "タイトル横に180度40分のメモあり。",
+      "createdAt": "2026-06-06T04:19:00+00:00",
+      "updatedAt": "2026-06-06T04:19:00+00:00"
     }
   ]
 }
