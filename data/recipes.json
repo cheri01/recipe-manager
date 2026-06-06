@@ -7,7 +7,7 @@
       "status": "review",
       "tags": [],
       "sourceImage": "assets/processed-images/IMG_2070.HEIC.png",
-      "generatedImage": "",
+      "generatedImage": "assets/generated-images/manual-img-2070-banana-juice.jpg",
       "ingredients": [
         "バナナ 太いの 1本",
         "ヨーグルト",
@@ -30,7 +30,7 @@
       "status": "review",
       "tags": [],
       "sourceImage": "assets/processed-images/IMG_2070.HEIC.png",
-      "generatedImage": "",
+      "generatedImage": "assets/generated-images/manual-img-2070-coconut-oil-apple.jpg",
       "ingredients": [
         "りんご",
         "ココナッツオイル",
@@ -55,7 +55,7 @@
       "status": "review",
       "tags": [],
       "sourceImage": "assets/processed-images/IMG_2071.HEIC.png",
-      "generatedImage": "",
+      "generatedImage": "assets/generated-images/manual-img-2071-green-curry.jpg",
       "ingredients": [
         "グリーンカレーペースト 50g",
         "ココナッツミルク 400ml",
@@ -87,7 +87,7 @@
       "status": "review",
       "tags": [],
       "sourceImage": "assets/processed-images/IMG_2071.HEIC.png",
-      "generatedImage": "",
+      "generatedImage": "assets/generated-images/manual-img-2071-chocolate-egg-cake.jpg",
       "ingredients": [
         "板チョコ 3枚",
         "卵 4個"
@@ -386,7 +386,7 @@
     },
     {
       "id": "manual-img-2078-orchard-dressing",
-      "title": "保存に強いオーチャードレッシング",
+      "title": "保存に強いオニオンドレッシング",
       "category": "",
       "status": "review",
       "tags": [],
@@ -3253,7 +3253,7 @@
     },
     {
       "id": "manual-img-2120-hasamenai-quiche",
-      "title": "はさめないキッシュ",
+      "title": "生地なしキッシュ",
       "category": "",
       "status": "review",
       "tags": [],

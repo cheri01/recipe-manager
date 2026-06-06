@@ -3,5 +3,9 @@ __pycache__/
 .DS_Store
 assets/source-images/
 assets/processed-images/
-assets/generated-images/
+assets/generated-images/*
 !assets/generated-images/.gitkeep
+!assets/generated-images/*.png
+!assets/generated-images/*.jpg
+!assets/generated-images/*.jpeg
+!assets/generated-images/*.webp

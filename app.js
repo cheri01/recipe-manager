@@ -4,12 +4,14 @@ const state = {
   mode: "browse",
   previewImages: new Map(),
   activeMedia: {
-    view: "source",
-    edit: "source",
+    view: "generated",
+    edit: "generated",
   },
   rotations: new Map(),
   browseMenuOpen: true,
 };
+
+const ASSET_VERSION = "20260606-generated-2";
 
 const els = {
   browseView: document.querySelector("#browseView"),
@@ -83,13 +85,38 @@ async function loadRecipes() {
     }
   }
 
-  state.recipes = draftRecipes.length ? draftRecipes : serverRecipes;
+  state.recipes = mergeRecipes(serverRecipes, draftRecipes);
   if (!state.recipes.length) {
     state.recipes = [createRecipe({ title: "サンプルレシピ", category: "未分類", notes: "画像読み取り後に置き換えてください。" })];
   }
 
   state.selectedId = state.recipes[0]?.id ?? null;
+  setPreferredMediaKind(state.recipes[0]);
   render();
+}
+
+function mergeRecipes(serverRecipes, draftRecipes) {
+  if (!draftRecipes.length) return serverRecipes;
+
+  const draftById = new Map(draftRecipes.map((recipe) => [recipe.id, recipe]));
+  const serverIds = new Set(serverRecipes.map((recipe) => recipe.id));
+  const merged = serverRecipes.map((serverRecipe) => {
+    const draftRecipe = draftById.get(serverRecipe.id);
+    if (!draftRecipe) return serverRecipe;
+    return {
+      ...serverRecipe,
+      ...draftRecipe,
+      generatedImage: serverRecipe.generatedImage || draftRecipe.generatedImage || "",
+    };
+  });
+
+  for (const draftRecipe of draftRecipes) {
+    if (!serverIds.has(draftRecipe.id)) {
+      merged.unshift(draftRecipe);
+    }
+  }
+
+  return merged;
 }
 
 function createRecipe(overrides = {}) {
@@ -128,12 +155,18 @@ function toPageImagePath(path) {
   return `assets/page-images/${match[1]}.jpg`;
 }
 
+function withAssetVersion(path) {
+  if (!path || path.startsWith("blob:") || path.startsWith("data:")) return path;
+  const separator = path.includes("?") ? "&" : "?";
+  return `${path}${separator}v=${ASSET_VERSION}`;
+}
+
 function getImagePath(recipe) {
-  return toPageImagePath(state.previewImages.get(recipe.id) || recipe.generatedImage || recipe.sourceImage || "");
+  return withAssetVersion(toPageImagePath(state.previewImages.get(recipe.id) || recipe.generatedImage || recipe.sourceImage || ""));
 }
 
 function getSourceImagePath(recipe) {
-  return toPageImagePath(state.previewImages.get(recipe.id) || recipe.sourceImage || "");
+  return withAssetVersion(toPageImagePath(state.previewImages.get(recipe.id) || recipe.sourceImage || ""));
 }
 
 function renderImage(img, empty, path) {
@@ -143,8 +176,18 @@ function renderImage(img, empty, path) {
 }
 
 function imagePathForKind(recipe, kind) {
-  if (kind === "generated") return recipe.generatedImage || "";
+  if (kind === "generated") return withAssetVersion(recipe.generatedImage || "");
   return getSourceImagePath(recipe);
+}
+
+function preferredMediaKind(recipe) {
+  return recipe?.generatedImage ? "generated" : "source";
+}
+
+function setPreferredMediaKind(recipe) {
+  const kind = preferredMediaKind(recipe);
+  state.activeMedia.view = kind;
+  state.activeMedia.edit = kind;
 }
 
 function rotationKey(recipe, kind) {
@@ -156,7 +199,8 @@ function mediaRotation(recipe, kind) {
 }
 
 function renderMediaPanel(scope, recipe) {
-  const kind = state.activeMedia[scope];
+  const kind = imagePathForKind(recipe, state.activeMedia[scope]) ? state.activeMedia[scope] : preferredMediaKind(recipe);
+  state.activeMedia[scope] = kind;
   const isGenerated = kind === "generated";
   const path = imagePathForKind(recipe, kind);
   const img = scope === "view" ? els.viewActiveImage : els.displayActiveImage;
@@ -279,6 +323,7 @@ function renderCards(container, recipes) {
 
     card.addEventListener("click", () => {
       state.selectedId = recipe.id;
+      setPreferredMediaKind(recipe);
       showSaveStatus("");
       if (window.matchMedia("(max-width: 760px)").matches && container === els.cards) {
         state.browseMenuOpen = false;
