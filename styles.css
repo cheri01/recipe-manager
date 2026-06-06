@@ -564,9 +564,19 @@ button.media-tab.active:hover {
 
 .detail-actions {
   display: flex;
+  align-items: center;
   justify-content: flex-end;
   gap: 8px;
   margin-top: 14px;
+}
+
+.save-status {
+  flex: 1;
+  min-width: 180px;
+  margin: 0;
+  color: var(--accent-strong);
+  font-size: 13px;
+  line-height: 1.45;
 }
 
 @media (max-width: 1120px) {
@@ -706,6 +716,11 @@ button.media-tab.active:hover {
 
   .detail-actions {
     flex-direction: column;
+    align-items: stretch;
+  }
+
+  .save-status {
+    min-width: 0;
   }
 
   .detail-actions button {

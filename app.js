@@ -47,6 +47,7 @@ const els = {
   viewIngredients: document.querySelector("#viewIngredients"),
   viewSteps: document.querySelector("#viewSteps"),
   viewNotes: document.querySelector("#viewNotes"),
+  saveStatus: document.querySelector("#saveStatus"),
   fields: {
     title: document.querySelector("#title"),
     category: document.querySelector("#category"),
@@ -82,7 +83,7 @@ async function loadRecipes() {
     }
   }
 
-  state.recipes = serverRecipes.length ? serverRecipes : draftRecipes;
+  state.recipes = draftRecipes.length ? draftRecipes : serverRecipes;
   if (!state.recipes.length) {
     state.recipes = [createRecipe({ title: "サンプルレシピ", category: "未分類", notes: "画像読み取り後に置き換えてください。" })];
   }
@@ -278,6 +279,7 @@ function renderCards(container, recipes) {
 
     card.addEventListener("click", () => {
       state.selectedId = recipe.id;
+      showSaveStatus("");
       if (window.matchMedia("(max-width: 760px)").matches && container === els.cards) {
         state.browseMenuOpen = false;
       }
@@ -356,6 +358,7 @@ function saveSelectedRecipe(event) {
   });
 
   persistDraft();
+  showSaveStatus("保存しました。JSON出力で data/recipes.json に反映できます。");
   render();
 }
 
@@ -412,6 +415,10 @@ function persistDraft() {
   localStorage.setItem("recipe-manager-draft", JSON.stringify({ recipes }, null, 2));
 }
 
+function showSaveStatus(message) {
+  els.saveStatus.textContent = message;
+}
+
 function download(filename, content, type) {
   const blob = new Blob([content], { type });
   const url = URL.createObjectURL(blob);
@@ -440,6 +447,7 @@ document.querySelector("#newRecipe").addEventListener("click", () => {
   state.recipes.unshift(recipe);
   state.selectedId = recipe.id;
   persistDraft();
+  showSaveStatus("新しいレシピを追加しました。入力後に保存してください。");
   setMode("manage");
 });
 
@@ -447,6 +455,7 @@ document.querySelector("#deleteRecipe").addEventListener("click", () => {
   state.recipes = state.recipes.filter((recipe) => recipe.id !== state.selectedId);
   state.selectedId = state.recipes[0]?.id ?? null;
   persistDraft();
+  showSaveStatus("削除しました。JSON出力で data/recipes.json に反映できます。");
   render();
 });
 
