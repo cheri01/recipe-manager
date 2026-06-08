@@ -14,6 +14,18 @@ const state = {
 };
 
 const ASSET_VERSION = "20260608-mobile-menu-1";
+const CATEGORY_ORDER = [
+  "主食・ごはん",
+  "麺・汁物",
+  "肉料理",
+  "魚介料理",
+  "野菜のおかず",
+  "豆腐・卵・大豆",
+  "ごはんのお供・常備菜",
+  "調味料・ソース",
+  "パン・粉もの",
+  "お菓子・デザート",
+];
 
 const els = {
   browseView: document.querySelector("#browseView"),
@@ -89,6 +101,7 @@ async function loadRecipes() {
   }
 
   state.recipes = mergeRecipes(serverRecipes, draftRecipes);
+  state.recipes.sort(compareRecipes);
   if (!state.recipes.length) {
     state.recipes = [createRecipe({ title: "サンプルレシピ", category: "未分類", notes: "画像読み取り後に置き換えてください。" })];
   }
@@ -151,6 +164,17 @@ function splitLines(value) {
     .split(/\n|、/g)
     .map((item) => item.trim())
     .filter(Boolean);
+}
+
+function categoryRank(category) {
+  const index = CATEGORY_ORDER.indexOf(category);
+  return index === -1 ? CATEGORY_ORDER.length : index;
+}
+
+function compareRecipes(a, b) {
+  return categoryRank(a.category) - categoryRank(b.category)
+    || (a.title || "").localeCompare(b.title || "", "ja")
+    || (a.id || "").localeCompare(b.id || "");
 }
 
 function toPageImagePath(path) {
@@ -313,7 +337,8 @@ function openBrowseMenu({ restoreScroll = false } = {}) {
 
 function renderFilters() {
   const current = els.categoryFilter.value;
-  const categories = [...new Set(state.recipes.map((recipe) => recipe.category).filter(Boolean))].sort();
+  const categories = [...new Set(state.recipes.map((recipe) => recipe.category).filter(Boolean))]
+    .sort((a, b) => categoryRank(a) - categoryRank(b) || a.localeCompare(b, "ja"));
   els.categoryFilter.innerHTML = '<option value="">すべて</option>';
   for (const category of categories) {
     const option = document.createElement("option");
