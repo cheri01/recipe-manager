@@ -9,9 +9,11 @@ const state = {
   },
   rotations: new Map(),
   browseMenuOpen: true,
+  browseScrollY: 0,
+  cardsScrollTop: 0,
 };
 
-const ASSET_VERSION = "20260606-generated-2";
+const ASSET_VERSION = "20260608-mobile-menu-1";
 
 const els = {
   browseView: document.querySelector("#browseView"),
@@ -30,6 +32,7 @@ const els = {
   totalCount: document.querySelector("#totalCount"),
   imageCount: document.querySelector("#imageCount"),
   toggleBrowseMenu: document.querySelector("#toggleBrowseMenu"),
+  returnToMenuBottom: document.querySelector("#returnToMenuBottom"),
   form: document.querySelector("#recipeForm"),
   displayActiveImage: document.querySelector("#displayActiveImage"),
   displayMediaEmpty: document.querySelector("#displayMediaEmpty"),
@@ -106,6 +109,8 @@ function mergeRecipes(serverRecipes, draftRecipes) {
     return {
       ...serverRecipe,
       ...draftRecipe,
+      category: serverRecipe.category || draftRecipe.category || "",
+      status: serverRecipe.status || draftRecipe.status || "draft",
       generatedImage: serverRecipe.generatedImage || draftRecipe.generatedImage || "",
     };
   });
@@ -261,6 +266,7 @@ function setMode(mode) {
 }
 
 function render() {
+  const cardsScrollTop = els.cards.scrollTop;
   renderBrowseMenu();
   renderFilters();
   renderStats();
@@ -268,12 +274,41 @@ function render() {
   renderCards(els.editCards, state.recipes);
   renderViewer();
   renderEditor();
+  if (!isMobileBrowse()) {
+    els.cards.scrollTop = cardsScrollTop || state.cardsScrollTop;
+  }
 }
 
 function renderBrowseMenu() {
   els.browseView.classList.toggle("menu-collapsed", !state.browseMenuOpen);
   els.toggleBrowseMenu.textContent = state.browseMenuOpen ? "メニューを隠す" : "メニューを表示";
   els.toggleBrowseMenu.setAttribute("aria-expanded", String(state.browseMenuOpen));
+}
+
+function isMobileBrowse() {
+  return window.matchMedia("(max-width: 760px)").matches;
+}
+
+function rememberBrowseScroll() {
+  if (isMobileBrowse() && state.browseMenuOpen) {
+    state.browseScrollY = window.scrollY;
+  } else {
+    state.cardsScrollTop = els.cards.scrollTop;
+  }
+}
+
+function openBrowseMenu({ restoreScroll = false } = {}) {
+  state.browseMenuOpen = true;
+  render();
+  if (restoreScroll) {
+    requestAnimationFrame(() => {
+      if (isMobileBrowse()) {
+        window.scrollTo({ top: state.browseScrollY, behavior: "auto" });
+      } else {
+        els.cards.scrollTop = state.cardsScrollTop;
+      }
+    });
+  }
 }
 
 function renderFilters() {
@@ -322,10 +357,13 @@ function renderCards(container, recipes) {
     }
 
     card.addEventListener("click", () => {
+      if (container === els.cards) {
+        rememberBrowseScroll();
+      }
       state.selectedId = recipe.id;
       setPreferredMediaKind(recipe);
       showSaveStatus("");
-      if (window.matchMedia("(max-width: 760px)").matches && container === els.cards) {
+      if (isMobileBrowse() && container === els.cards) {
         state.browseMenuOpen = false;
       }
       render();
@@ -506,9 +544,15 @@ document.querySelector("#deleteRecipe").addEventListener("click", () => {
 
 document.querySelector("#editSelected").addEventListener("click", () => setMode("manage"));
 els.toggleBrowseMenu.addEventListener("click", () => {
-  state.browseMenuOpen = !state.browseMenuOpen;
-  render();
+  if (state.browseMenuOpen) {
+    rememberBrowseScroll();
+    state.browseMenuOpen = false;
+    render();
+  } else {
+    openBrowseMenu({ restoreScroll: true });
+  }
 });
+els.returnToMenuBottom.addEventListener("click", () => openBrowseMenu({ restoreScroll: true }));
 els.browseMode.addEventListener("click", () => setMode("browse"));
 els.manageMode.addEventListener("click", () => setMode("manage"));
 els.viewSourceTab.addEventListener("click", () => setMediaKind("view", "source"));

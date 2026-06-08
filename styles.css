@@ -477,6 +477,10 @@ button.media-tab.active:hover {
   line-height: 1.7;
 }
 
+.viewer-bottom-actions {
+  display: none;
+}
+
 .bulk-panel {
   display: grid;
   grid-template-columns: minmax(220px, 1fr) minmax(220px, 300px);
@@ -708,6 +712,17 @@ button.media-tab.active:hover {
   .bulk-panel,
   .form-grid {
     grid-template-columns: 1fr;
+  }
+
+  .viewer-bottom-actions {
+    display: block;
+    margin-top: 18px;
+    border-top: 1px solid var(--line);
+    padding-top: 14px;
+  }
+
+  .viewer-bottom-actions button {
+    width: 100%;
   }
 
   .selected-images {
