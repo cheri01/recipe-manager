@@ -2,6 +2,8 @@
 
 画像から読み取ったレシピを閲覧、検索、管理する GitHub Pages 向けの静的アプリです。
 
+現在の公開データは 181 レシピです。全レシピは `published` 状態で、生成画像 `assets/generated-images/*.jpg` が設定済みです。
+
 ## 構成
 
 - `index.html`, `styles.css`, `app.js`: GitHub Pages に置く静的アプリ
@@ -18,11 +20,47 @@
 - `閲覧`: メイン画面。検索、一覧、レシピ詳細を読み取り専用で表示します。
 - `登録・編集`: レシピの手動追加、編集、削除、複数画像からの下書き作成を行います。
 
+閲覧画面では、分類フィルタ、状態フィルタ、キーワード検索で絞り込めます。スマホ幅ではレシピを選ぶと一覧メニューを畳んで詳細を表示し、上部または詳細下部の `メニューに戻る` で元の一覧位置へ戻ります。
+
 `登録・編集` はローカル作業専用です。GitHub Pages 上では画像ファイルや `data/recipes.json` へ直接保存できません。
 
 登録・編集画面では画像を複数選択できます。選択した各画像ごとに下書きレシピが作られ、`sourceImage` には `assets/source-images/ファイル名` が入ります。
 
 GitHub Pages はブラウザから画像ファイルを保存できないため、公開時はローカルで `data/recipes.json` と画像を更新してから Git に反映します。画面上の画像プレビューは選択直後の確認用です。
+
+## データの状態と分類
+
+`data/recipes.json` は公開データの正本です。現在は全 181 件を `published` に統一しています。
+
+分類は 10 件に絞り、以下の順で表示します。アプリの分類フィルタとレシピ一覧、JSON 内のレシピ配列は同じ順序にそろえています。各分類内は日本語タイトル順です。
+
+1. `主食・ごはん`
+2. `麺・汁物`
+3. `肉料理`
+4. `魚介料理`
+5. `野菜のおかず`
+6. `豆腐・卵・大豆`
+7. `ごはんのお供・常備菜`
+8. `調味料・ソース`
+9. `パン・粉もの`
+10. `お菓子・デザート`
+
+現在の件数:
+
+| 分類 | 件数 |
+| --- | ---: |
+| 主食・ごはん | 11 |
+| 麺・汁物 | 12 |
+| 肉料理 | 13 |
+| 魚介料理 | 10 |
+| 野菜のおかず | 29 |
+| 豆腐・卵・大豆 | 12 |
+| ごはんのお供・常備菜 | 23 |
+| 調味料・ソース | 13 |
+| パン・粉もの | 10 |
+| お菓子・デザート | 48 |
+
+分類を更新した場合は、`app.js` の `CATEGORY_ORDER` と `data/recipes.json` の `category` を同じ順序で保ってください。
 
 ## 画像読み取り
 
@@ -82,7 +120,9 @@ python3 -m http.server 4174
   "id": "manual-img-2071-green-curry",
   "title": "グリーンカレー",
   "sourceImage": "assets/processed-images/IMG_2071.HEIC.png",
-  "generatedImage": ""
+  "generatedImage": "assets/generated-images/manual-img-2071-green-curry.jpg",
+  "status": "published",
+  "category": "主食・ごはん"
 }
 ```
 
@@ -122,7 +162,7 @@ assets/generated-images/manual-img-2071-green-curry.jpg
 }
 ```
 
-アプリの閲覧画面では、`generatedImage` がある場合はサムネイルと詳細画像の初期表示に生成画像を優先します。生成画像がないレシピでは、従来どおり `sourceImage` 由来の `assets/page-images/*.jpg` を表示します。
+アプリの閲覧画面では、`generatedImage` がある場合はサムネイルと詳細画像の初期表示に生成画像を優先します。現在の公開データでは全レシピに生成画像が設定済みです。生成画像がないレシピを追加した場合は、従来どおり `sourceImage` 由来の `assets/page-images/*.jpg` を表示します。
 
 生成画像を PNG から JPG に変換する例:
 
@@ -146,10 +186,23 @@ sips -s format jpeg -s formatOptions 82 -Z 1200 input.png --out assets/generated
 ## ローカル確認
 
 ```bash
+cd recipe-manager
 python3 -m http.server 4174
 ```
 
 ブラウザで `http://127.0.0.1:4174/` を開きます。
+
+データだけ確認する場合:
+
+```bash
+node - <<'NODE'
+const fs = require("fs");
+const data = JSON.parse(fs.readFileSync("data/recipes.json", "utf8"));
+console.log("recipes", data.recipes.length);
+console.log("missing generatedImage", data.recipes.filter((recipe) => !recipe.generatedImage).length);
+console.log("statuses", [...new Set(data.recipes.map((recipe) => recipe.status))].join(", "));
+NODE
+```
 
 ## GitHub Pages
 
@@ -194,4 +247,4 @@ VS Code で公開前に確認すること:
 2. `sourceImage`: 元画像から作った公開用 `assets/page-images/*.jpg`
 3. 画像なし表示
 
-ブラウザにローカル下書きが残っている場合でも、サーバー上の `data/recipes.json` に入っている `generatedImage` はマージして表示されます。表示が古い場合は、ブラウザをリロードしてください。
+ブラウザにローカル下書きが残っている場合でも、サーバー上の `data/recipes.json` に入っている `generatedImage`、`category`、`status` は優先して表示されます。表示が古い場合は、ブラウザをリロードしてください。
